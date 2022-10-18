@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <!--META INFO-->
+    <title>FF | About</title>
+    <link rel="icon" type="image/x-icon" href="assets/ramen.png" />
+    <meta name="description" content="About Faux Foodies">
+    <meta name="keywords" content="HTML, CSS, rankings, ramen, lists, reviews, food">
+    <meta name="author" content="Isabel Rios">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Coda&family=Monofett&family=Monoton&family=Nunito&family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Oswald&family=Oxygen&family=Paytone+One&family=Quicksand:wght@300&family=Roboto:ital@1&display=swap"
+        rel="stylesheet">
+    <!--STYLE-->
+    <link rel="stylesheet" href="assets/colorSensitive.css">
+
+</head>
+
+<body id="main">
+    <aside>
+        <!--LEFT-HAND NAVIGATION BAR-->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="flexbox-container">
+                <div class="flexbox-item flexbox-item-1">
+                    <a href="indexCS.html">Home Page</a>
+                    <p id="textbox2">Go back, and don't forget to share the love! </p>
+                </div>
+                <div class="flexbox-item flexbox-item-2">
+                    <a href="tacosCS.html">Taco Hotspot</a>
+                    <p id="textbox2">THE taco spot, really! High heels are not recommended to dine here,
+                        as there are no chairs in this restaurant. With excellent locations,
+                        staff, vibe, and food, <em>Los Tacos No. 1</em> is sure to rank first on
+                        your taco list, as it does on ours. </p>
+                </div>
+                <div class="flexbox-item flexbox-item-3">
+                    <a href="ranksCS.html">Weekly Ranking</a>
+                    <p id="textbox2">Some of the best ramen spots you can find in New York City. Lucas is
+                        one to list and rank, and this week he truly indulged by ranking
+                        some of the most delicious ramens in the city. What is part of his
+                        criteria? Broth, toppings, noodles, and the experience itself. Joined
+                        by his <em>vegan</em> counterpart, philosophy professor and honorary faux-foodie
+                        Jaime Andrés Fernández, there’s something for everyone on this ramen list. </p>
+                </div>
+            </div>
+        </div>
+    </aside>
+    </div>
+    <!--MAIN WEBSITE-->
+    <main>
+        <div class="grid-container">
+            <div class="grid-item grid-item-7">
+                <h3>ABOUT US</h3>
+            </div>
+            <div class="grid-item grid-item-8">
+                <p id="textbox2">Jaime is our vegan expert who contributes to Faux Foodies... when he's not too busy
+                    questioning the philosophy of language and publishing papers. Recently he has also started checking
+                    if wine
+                    is vegan before buying it. He is always down for a whoopie pie.
+                </p>
+                <img class="red" src="assets/jaime.JPG" alt="Jaime Andrés Fernandez, contributing writer"
+                    title="Jaime Andrés Fernandez, contributing writer">
+            </div>
+            <div class="grid-item grid-item-9">
+                <img class="red" src="assets/lucas.jpg" alt="Lucas Gómez-Doyle, writer" title="Lucas Gómez-Doyle, writer">
+                <p id="textbox2">Lucas (chief writer of <a class="names" href="tacosCS.html" target="_blank"><em>Aromas & Atmospheres</em></a>) is your go-to for any
+                    food-related spot,
+                    anywhere in New York. Are you deep in Brooklyn? Worry not, he'll have something pinned on Google
+                    Maps for
+                    you to try. He doesn't always know how these pins get pinned, but hey, he has them. A donut guy at
+                    heart.
+                </p>
+
+            </div>
+
+            <div class="grid-item grid-item-12">
+                <p id="textbox2">Isabel has an intense passion for pesto sauce. She recently ate an entire pumpkin pie
+                    in one day.
+                    She strives to be a web design "unicorn", so she works hard at designing our website and maintaining
+                    it. Carrot cake is
+                    the way to go for her, and she will buy herself some on her birthday.
+                </p>
+                <img class="red" src="assets/isa.JPG" alt="Isabel Ríos, writer" title="Isabel Ríos, writer">
+            </div>
+
+        </div>
+    </main>
+    <nav>
+        <!--MENU TAB-->
+        <span class="menu" style="font-size:30px;cursor:pointer" onclick="openNav()">menu</span>
+        </div>
+    </nav>
+
+    <!--SIDEBAR ANIMATIONS -- See CSS for reference-->
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "350px";
+            document.getElementById("main").style.marginLeft = "350px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.body.style.backgroundColor = "white";
+        }
+    </script>
+
+</body>
+
+</html>
